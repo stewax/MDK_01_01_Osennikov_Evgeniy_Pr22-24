@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Elements\User_itm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -63,11 +67,18 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Elements\User_itm.xaml.cs">
+      <DependentUpon>User_itm.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Pages\Main.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PagesUser\Call_win.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -83,6 +94,9 @@
   <ItemGroup>
     <Compile Include="Pages\Main.xaml.cs">
       <DependentUpon>Main.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PagesUser\Call_win.xaml.cs">
+      <DependentUpon>Call_win.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\PagesUser\User_win.xaml.cs">
       <DependentUpon>User_win.xaml</DependentUpon>
@@ -126,9 +140,7 @@
     <Resource Include="img\plus.png" />
     <Resource Include="img\redac.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Elements\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="ClassConnection\ClassConnection.csproj">
       <Project>{53b197a6-f36d-41f9-be88-debf7c246e91}</Project>
