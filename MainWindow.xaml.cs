@@ -20,6 +20,7 @@ namespace PhoneBook_Осенников
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Connetion connect;
         public MainWindow()
         {
             InitializeComponent();
