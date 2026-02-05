@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Elements\Add_itm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Elements\Call_itm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Elements\User_itm.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -66,6 +74,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Elements\Add_itm.xaml.cs">
+      <DependentUpon>Add_itm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Elements\Call_itm.xaml.cs">
+      <DependentUpon>Call_itm.xaml</DependentUpon>
     </Compile>
     <Compile Include="Elements\User_itm.xaml.cs">
       <DependentUpon>User_itm.xaml</DependentUpon>
