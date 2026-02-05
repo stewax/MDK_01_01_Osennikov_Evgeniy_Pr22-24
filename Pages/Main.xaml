@@ -10,7 +10,7 @@
 
     <Grid Background="#ffe8e8e8">
         <Grid.Resources>
-            <ResourceDictionary Source="/Resource/BtnRes.xaml"/>
+            <ResourceDictionary Source="\Resource\BtnRes.xaml"/>
         </Grid.Resources>
 
         <Grid Margin="0,0,0,0" VerticalAlignment="Top" Height="60">
