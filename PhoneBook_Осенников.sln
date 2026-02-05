@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneBook_Осеннико�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassModule", "ClassModule\ClassModule.csproj", "{20D1FCD0-7A45-4C3B-B5AA-9028A0C31265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassConnection", "ClassConnection\ClassConnection.csproj", "{53B197A6-F36D-41F9-BE88-DEBF7C246E91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{20D1FCD0-7A45-4C3B-B5AA-9028A0C31265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D1FCD0-7A45-4C3B-B5AA-9028A0C31265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D1FCD0-7A45-4C3B-B5AA-9028A0C31265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B197A6-F36D-41F9-BE88-DEBF7C246E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B197A6-F36D-41F9-BE88-DEBF7C246E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B197A6-F36D-41F9-BE88-DEBF7C246E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B197A6-F36D-41F9-BE88-DEBF7C246E91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

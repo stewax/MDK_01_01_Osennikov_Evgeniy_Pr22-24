@@ -8,7 +8,7 @@ namespace ClassModule
 {
     public class User
     {
-        public int Id { get; set; }
+        public int id { get; set; }
         public string phone_num { get; set; }
         public string fio_user { get; set; }
         public string passport_data { get; set; }

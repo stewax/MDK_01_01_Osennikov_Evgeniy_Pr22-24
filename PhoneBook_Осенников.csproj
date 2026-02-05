@@ -122,5 +122,15 @@
   <ItemGroup>
     <Folder Include="Elements\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ClassConnection\ClassConnection.csproj">
+      <Project>{53b197a6-f36d-41f9-be88-debf7c246e91}</Project>
+      <Name>ClassConnection</Name>
+    </ProjectReference>
+    <ProjectReference Include="ClassModule\ClassModule.csproj">
+      <Project>{20d1fcd0-7a45-4c3b-b5aa-9028a0c31265}</Project>
+      <Name>ClassModule</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
